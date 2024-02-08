@@ -225,7 +225,7 @@ function ejecutarSimulador() {
     opcion = prompt(
       "Sr/a " +
         nombrePaciente +
-        ", bienvenido/a al menú del Hospital Privado M. Quiroga.\nPor favor, seleccione una opción:\n\n1. Internación Hospitalaria\n2. Cuidados Médicos\n3. Transporte al Hospital\n4. Calcular Presupuesto de Internación\n\n5. Salir"
+        ", bienvenido/a al menú del Hospital Privado M. Quiroga.\nPor favor, seleccione una opción:\n\n1. Internación Hospitalaria\n2. Cuidados Médicos\n3. Transporte al Hospital\n4. Calcular Presupuesto de Internación\n5. Salir"
     );
     switch (opcion) {
       case "1":
