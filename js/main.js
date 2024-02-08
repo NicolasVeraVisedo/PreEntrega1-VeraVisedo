@@ -91,7 +91,7 @@ function cuidadosMedicos() {
   let valido = false;
   while (!valido) {
     diasCuidado = prompt(
-      "Ingrese la cantidad de días de cuidados médicos requeridos (de 4 a 8 días):"
+      "Ingrese la cantidad de días de cuidados médicos requeridos (de 5 a 8 días):"
     );
     console.log(
       "Dias elegidos por el paciente antes del switch: " + diasCuidado
